@@ -6,14 +6,5 @@ const WelcomeText = styled.p`
 `;
 
 export const App: React.FC = () => {
-    return <WelcomeText>
-
-
-
-
-
-
-
-
-        Hello</WelcomeText>;
+    return <WelcomeText>Hello</WelcomeText>;
 };
