@@ -1,10 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const WelcomeText = styled.p`
-    color: deepskyblue;
-`;
+import { UserSection } from '../Main/UserSection';
+import { Main, MainHeading } from '../Main';
 
 export const App: React.FC = () => {
-    return <WelcomeText>Hello</WelcomeText>;
+    return (
+        <Main>
+            <MainHeading>Homework 01 – Components</MainHeading>
+            <UserSection />
+        </Main>
+    );
 };
