@@ -11,6 +11,7 @@ export const Profile = styled.div`
     height: 330px;
     background: white;
     border-radius: 5px;
+    overflow: hidden;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
     font-family: sans-serif;
 `;
