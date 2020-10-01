@@ -43,7 +43,7 @@ export const Item = styled.li`
     flex-grow: 1;
     flex-shrink: 0;
     height: 60px;
-    background: ${() => `#${Math.floor(Math.random() * (2 ** 24 - 1)).toString(16)}`};
+    background: ${(): string => `#${Math.floor(Math.random() * (2 ** 24 - 1)).toString(16)}`};
 `;
 
 export const Value = styled.span`
